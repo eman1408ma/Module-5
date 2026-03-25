@@ -12,7 +12,26 @@ To write a Python program that creates a **Student** class with a **default cons
 
 ## 🧾 Program
 
-Add code here
+# Program to demonstrate default constructor in a class
+
+class Student:
+    
+    # Default constructor
+    def __init__(self):
+        print("Student object is created")
+
+    # Method to display welcome message
+    def display(self, name):
+        print("Welcome,", name)
+
+# Creating object
+obj = Student()
+
+# Taking input from user
+student_name = input("Enter the student's name: ")
+
+# Calling method
+obj.display(student_name)
 
 ## Output
 
